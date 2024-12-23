@@ -1,0 +1,13 @@
+.cards {
+    opacity: 0;
+    transition: 170ms;
+    transform: scale(0.5);
+    width: 100%;
+    margin: auto;
+    border: 1px #f1eee5 solid;
+}
+
+.cards.show {
+    opacity: 1;
+    transform: scale(1);
+}
